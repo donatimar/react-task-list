@@ -1,1 +1,10 @@
+.header-bg {
+  display: flex;
+  align-items: center;
+  background-color: #7fffd4;
+  height: 10vh;
+}
 
+.header-bg h1 {
+  padding: 0 20px;
+}

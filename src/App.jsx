@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
+import "./App.css"; // Assicurati di importare il file CSS
 import { tasks } from "./data/tasks";
 
 function App() {
@@ -11,7 +11,9 @@ function App() {
 
   return (
     <div className="App container">
-      <h1 className="my-4">Task Manager</h1>
+      <header className="header-bg mb-4">
+        <h1>Task Manager</h1>
+      </header>
 
       <div className="mb-4">
         <h2>Current Tasks</h2>
