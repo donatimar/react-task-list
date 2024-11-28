@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css"; // Assicurati di importare il file CSS
+import "./App.css";
 import { tasks } from "./data/tasks";
 
 function App() {
